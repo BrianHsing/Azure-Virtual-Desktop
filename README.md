@@ -33,3 +33,4 @@
  - Lab3 - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用建立 WVD<br>
 ## 深入研究
  - 使用 Storage Spaces Direct (S2D) 作為設定檔容器<br>
+ 
