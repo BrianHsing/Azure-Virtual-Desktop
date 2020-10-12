@@ -29,4 +29,4 @@
 ## Lab 實戰演練
  - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
  - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
- - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用<br>
+ - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用建立 WVD<br>
