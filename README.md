@@ -27,8 +27,9 @@
  - Azure NetApp Files 搭配 Windows ADDS<br>
  https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-fslogix-profile-container<br>
 ## Lab 實戰演練
+ 下列每一個 Lab 都是能讓您建立出獨立且完整的 WVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
  - Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
  - Lab3 - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用建立 WVD<br>
 ## 深入研究
- - 使用 Storage Spaces Direct (S2D) 作為設定檔容器
+ - 使用 Storage Spaces Direct (S2D) 作為設定檔容器<br>
