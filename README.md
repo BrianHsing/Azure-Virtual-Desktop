@@ -4,10 +4,15 @@
  File 作 User Profile 的儲存區，協助您順暢的建置 WVD， 輕鬆的享受 WVD 所帶來的好處。<br>
 ## 部署 Windows 虛擬桌面的先決條件
  - 適當的授權<br>
- - Azure 訂用帳戶<br>
+   https://azure.microsoft.com/zh-tw/pricing/details/virtual-desktop/<br>
+ - Azure 訂用帳戶，如果您沒有，可以註冊一個月的免費試用<br>
+   https://azure.microsoft.com/zh-tw/free/<br>
 ## 選擇適合您的身分驗證
+ 由於 Azure AD 並不提供 NTLM/Kerberos 驗證，所以您必須選擇以下其中一種方式來滿足 WVD 的驗證需求。<br>
  - Azure AD Domain Services<br>
+ https://docs.microsoft.com/zh-tw/azure/active-directory-domain-services/overview<br>
  - Azure VM ADDS<br>
+ https://docs.microsoft.com/zh-tw/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm<br>
 ## 選擇適合您的設定檔容器
  - Azure Files 搭配 Azure AD Domain Services<br>
  - Azure Files 搭配 Azure VM ADDS<br>
