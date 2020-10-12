@@ -8,13 +8,25 @@
  - Azure 訂用帳戶，如果您沒有，可以註冊一個月的免費試用<br>
    https://azure.microsoft.com/zh-tw/free/<br>
 ## 選擇適合您的身分驗證
- 由於 Azure AD 並不提供 NTLM/Kerberos 驗證，所以您必須選擇以下其中一種方式來滿足 WVD 的驗證需求。<br>
+ 由於 Azure AD 並不提供 NTLM/Kerberos 驗證，所以您必須選擇以下其中一種方式來滿足 WVD 的驗證需求，與 
+ Azure AD 搭配。 當然實際情況會依據您目前的環境來彈性調整，例如您如果有使用 Site to Site VPN 和內部部
+ 署連接，您也可以使用現有的 Windows AD DS 來進行驗證。<br>
  - Azure AD Domain Services<br>
  https://docs.microsoft.com/zh-tw/azure/active-directory-domain-services/overview<br>
  - Azure VM ADDS<br>
  https://docs.microsoft.com/zh-tw/windows-server/identity/ad-ds/deploy/virtual-dc/adds-on-azure-vm<br>
 ## 選擇適合您的設定檔容器
+ WVD 提供 FSLogix 設定檔，作為建議的使用者設定檔解決方案。您可以選擇使用以虛擬機器為基礎的檔案共用，
+ 也可以使用 Azure Files，當然您也可以選擇 Azure NetApp Files 做為您的容器。<br>
  - Azure Files 搭配 Azure AD Domain Services<br>
+ https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-profile-container-adds<br>
  - Azure Files 搭配 Azure VM ADDS<br>
- - 基於VM的檔案共用<br>
-## 建立主機集區
+ https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-file-share<br>
+ - 基於 VM 的檔案共用<br>
+ https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-host-pools-user-profile<br>
+ - Azure NetApp Files 搭配 Windows ADDS<br>
+ https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-fslogix-profile-container<br>
+## Lab 實戰演練
+ - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
+ - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
+ - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用<br>
