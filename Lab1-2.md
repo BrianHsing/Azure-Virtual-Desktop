@@ -25,5 +25,8 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds5.png "addds5")<br>
  - 同步處理的頁籤中，您可以選擇特定的群組不進行同步，此範例選擇全部同步處理類型。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds6.png "addds6")<br>
- - 點選「檢閱+建立」，如果沒有錯誤，即可開始建立。<br><br>
+ - 點選「檢閱+建立」，如果沒有錯誤，即可開始建立。<br>
+ 
+ > **Tips.完成資源建立後，您必須重設使用者密碼，Azure AD 使用者物件才會產生雜湊值，並同步至Azure AD Domain Services。此外您也需要等待至少 10 分鐘以上的同步時間** <br>
+
  完成後，請[前往 Lab1-3](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)。<br>
