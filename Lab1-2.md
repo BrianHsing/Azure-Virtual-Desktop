@@ -23,5 +23,4 @@
 	  的樹系會需要和內部部署的 Windows ADDS 樹系單向信任，使用這個方法的時候，使用者
 	  物件和密碼雜湊不會同步至 Azure AD Domain Services。本範例選擇使用者類型的樹系。
 	  > **Tips.由於此範例使用 Azure AD 搭配 Azure AD Domain Services ，必須選擇使用者類型樹系，才能符合 WVD 需求** <br>
-  
-  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds2.png "addds2")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds3.png "addds3")<br>
