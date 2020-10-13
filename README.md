@@ -38,7 +38,23 @@
 	 - [Lab1-7.指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-7.md)<br>
 	 - [Lab1-8.開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-8.md)<br>
  - Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
+	 - [Lab2-1.建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-1.md)<br>
+	 - [Lab2-2.設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-2.md)<br>
+	 - [Lab2-3.建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+	 - [Lab2-4.透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-4.md)<br>
+	 - [Lab2-5.透過 Azure Bastion 管理主機集區設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-5.md)<br>
+	 - [Lab2-6.建立 Remote App](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-6.md)<br>
+	 - [Lab2-7.指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-7.md)<br>
+	 - [Lab2-8.開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-8.md)<br>
  - Lab3 - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用建立 WVD<br>
+ 	 - [Lab3-1.建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-1.md)<br>
+	 - [Lab3-2.設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-2.md)<br>
+	 - [Lab3-3.建立共用此資料夾](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-3.md)<br>
+	 - [Lab3-4.透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-4.md)<br>
+	 - [Lab3-5.透過 Azure Bastion 管理主機集區設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-5.md)<br>
+	 - [Lab3-6.建立 Remote App](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-6.md)<br>
+	 - [Lab3-7.指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-7.md)<br>
+	 - [Lab3-8.開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-8.md)<br>
 
 ## 深入研究
  - 使用 Storage Spaces Direct (S2D) 作為設定檔容器<br>
