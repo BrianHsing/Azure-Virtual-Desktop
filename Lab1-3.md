@@ -16,5 +16,6 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage6.png "storage6")<br>
  - 點選剛建立的檔案共用，選擇左欄存取控制(IAM)後，選擇新增，指派儲存體檔案資料 SMB 共同參與者角色，並選取 Lab1-2 所建立的使用者，儲存。<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage7.png "storage7")<br>
- 
+ - 點選左欄設定類別中的屬性，查看檔案共用路徑，此範例的路徑為「//stor1013.file.core.windows.net/userprofile」，在 Lab 會使用到此路徑。<br>
+ ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage8.png "storage8")<br>
  完成後，請[前往 Lab1-4](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-4.md)。<br>
