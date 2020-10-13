@@ -23,3 +23,5 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds4.png "addds4")<br>
  - 管理的頁籤中，您會需要將某位使用者加入到 AAD DC Administrators 管理群組，只有在此管理群組的成員可以管理。在過去，只有管理群組的成員可以將虛擬機器加入網域。好消息是在近期已經沒有這個限制了<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds5.png "addds5")<br>
+ - 同步處理的頁籤中，您可以選擇特定的群組不進行同步，此範例選擇全部同步處理類型。<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds6.png "addds6")<br>
