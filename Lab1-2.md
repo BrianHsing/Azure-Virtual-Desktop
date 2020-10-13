@@ -21,3 +21,5 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds3.png "addds3")<br>
  - 網路的頁籤中，系統會先幫您建立預設的虛擬網路，您可以點選「建立新的項目」，去更改位置空間的大小，並且新增編輯子網路。此範例將位置範圍設定為 10.0.0.0/16，並新增子網路 hostpool-subnet 10.0.1.0/24。此子網路會放置稍後新增的 WVD 主機集區。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds4.png "addds4")<br>
+ - 管理的頁籤中，您會需要將某位使用者加入到 AAD DC Administrators 管理群組，只有在此管理群組的成員可以管理。在過去，只有管理群組的成員可以將虛擬機器加入網域。好消息是在近期已經沒有這個限制了<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds5.png "addds5")<br>
