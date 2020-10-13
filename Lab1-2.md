@@ -14,5 +14,6 @@
 	- 選擇符合您需要的資料中心位置，此範例選擇東亞。<br>
 	- SKU 有三種類型標準、企業、進階，每個級距的差異是在驗證負載量與物件建議數量建議的數量不同，此範例選擇標準。<br>
 	  https://azure.microsoft.com/zh-tw/pricing/details/active-directory-ds/<br>
-	- 樹系類型主要有兩種，使用者和資源，差異是使用者類型的樹系，會同步 Azure AD 的所有物件，可以讓使用者帳戶直接和 Azure AD Domain Services 進行驗證。資源類型的樹系會需要和內部部署的 Windows ADDS 樹系單向信任，使用這個方法的時候，使用者物件和密碼雜湊不會同步至 Azure AD Domain Services。此範例選擇使用者類型的樹系。<br>> **Tips.由於此範例使用 Azure AD 搭配 Azure AD Domain Services ，必須選擇使用者類型樹系，才能符合 WVD 需求** <br>
+	- 樹系類型主要有兩種，使用者和資源，差異是使用者類型的樹系，會同步 Azure AD 的所有物件，可以讓使用者帳戶直接和 Azure AD Domain Services 進行驗證。資源類型的樹系會需要和內部部署的 Windows ADDS 樹系單向信任，使用這個方法的時候，使用者物件和密碼雜湊不會同步至 Azure AD Domain Services。此範例選擇使用者類型的樹系。<br>
+	> **Tips.由於此範例使用 Azure AD 搭配 Azure AD Domain Services ，必須選擇使用者類型樹系，才能符合 WVD 需求** <br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds3.png "addds3")<br>
