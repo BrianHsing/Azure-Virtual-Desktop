@@ -2,4 +2,4 @@
 
 ## Lab1-8.開始使用 WVD
 
-回到[Windows 虛擬桌面](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-8.md)。<br>
+回到[Windows 虛擬桌面](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop)。<br>
