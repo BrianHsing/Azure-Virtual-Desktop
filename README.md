@@ -41,9 +41,8 @@
 	 - [Lab2-2.設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-2.md)<br>
 	 - [Lab2-3.建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
  - Lab3 - 使用 Azure VM ADDS 搭配基於 VM 的檔案共用建立 WVD<br>
- 	 - [Lab3-1.建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-1.md)<br>
-	 - [Lab3-2.設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-2.md)<br>
-	 - [Lab3-3.建立共用此資料夾](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-3.md)<br>
+	 - 請先完成 Lab 2-1、2-2<br>
+	 - [Lab3-1.建立共用此資料夾](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab3-3.md)<br>
  - [Lab4 - 設定虛擬網路並建立 Azure Bastion](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab4.md)<br>
  - [Lab5 - 透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab5.md)<br>
  - [Lab6 - 設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab6.md)<br>
