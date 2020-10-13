@@ -18,4 +18,4 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage7.png "storage7")<br>
  - 點選左欄設定類別中的屬性，查看檔案共用路徑，此範例的路徑為「//stor1013.file.core.windows.net/userprofile」，在 Lab 會使用到此路徑。<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage8.png "storage8")<br>
- 完成後，請[前往 Lab1-4](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-4.md)。<br>
+ 完成後，請[前往 Lab4](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab4.md)。<br>
