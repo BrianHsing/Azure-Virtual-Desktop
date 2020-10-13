@@ -30,18 +30,16 @@
  下列每一個 Lab 都是能讓您建立出獨立且完整的 WVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
 	 - [Lab1-1.建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-1.md)<br>
-	 - [Lab1-2.建立 Azure AD Domain Services]()<br>
-	 - [Lab1-3.建立 Azure Files 並啟用 Azure AD Domain Services 驗證]()<br>
-	 - [Lab1-4.透過 Azure 入口網站建立主機集區]()<br>
-	 - [Lab1-5.透過 Azure Bastion 管理主機集區設定 FSLogix 使用者設定檔]()<br>
-	 - [Lab1-6.建立 Remote App]()<br>
-	 - [Lab1-7.指派使用者或群組]()<br>
-	 - [Lab1-8.開始使用 WVD]()<br>
+	 - [Lab1-2.建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-2.md)()<br>
+	 - [Lab1-3.建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
+	 - [Lab1-4.透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-4.md)<br>
+	 - [Lab1-5.透過 Azure Bastion 管理主機集區設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-5.md)<br>
+	 - [Lab1-6.建立 Remote App](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-6.md)<br>
+	 - [Lab1-7.指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-7.md)<br>
+	 - [Lab1-8.開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-8.md)<br>
  - Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
  - Lab3 - 使用 Azure AD Domain Services 搭配基於 VM 的檔案共用建立 WVD<br>
 
-## 在任何地點、裝置使用 WVD
- 
 ## 深入研究
  - 使用 Storage Spaces Direct (S2D) 作為設定檔容器<br>
  
