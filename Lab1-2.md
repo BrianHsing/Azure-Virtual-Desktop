@@ -19,3 +19,5 @@
 	  > **Tips.由於此範例使用 Azure AD 搭配 Azure AD Domain Services ，必須選擇使用者類型樹系，才能符合 WVD 需求** <br>
 
 	![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds3.png "addds3")<br>
+ - 網路的頁籤中，系統會先幫您建立預設的虛擬網路，您可以點選「建立新的項目」，去更改位置空間的大小，並且新增編輯子網路。此範例將位置範圍設定為 10.0.0.0/16，並新增子網路 hostpool-subnet 10.0.1.0/24。此子網路會放置稍後新增的 WVD 主機集區。<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds4.png "addds4")<br>
