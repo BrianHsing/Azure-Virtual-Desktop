@@ -1,6 +1,7 @@
 # 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD
 
 ## Lab1-2.建立 Azure AD Domain Services
+ 由於建立 Azure AD Domain Services 會需要兩個小時，如果您的練習時間較少，可前往Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD，進行練習。
 
  - 在搜尋列搜尋 Azure AD Domain Services，並點選<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/aadds1.png "addds1")<br>
