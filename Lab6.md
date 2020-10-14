@@ -26,5 +26,6 @@
 	New-ItemProperty -Path HKLM:\SOFTWARE\FSLogix\Profiles -Name SizeInMBs -PropertyType DWORD -Value 100000
 	```
 	![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/upd6.png "upd6")<br>
-
+ - 當您完成 [Lab9](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md) 時，您可以在完成設定的虛擬主機中，看到使用者設定檔已成功被掛載。<br>
+ > **Tips.每台虛擬主機均需要做此步驟，您可以透過 GPO、Golden Image 的方式快速部署** <br>
  完成後，請[前往 Lab7](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab7.md)。<br>
