@@ -15,8 +15,5 @@
 	- 順利登入工作桌面<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/use6.png "use6")<br>
 	詳細請參考 https://docs.microsoft.com/zh-tw/azure/virtual-desktop/connect-windows-7-10<br>
- - 使用 Windows 桌面用戶端連線<br>
-
- - 使用 Android 用戶端連線<br>
 
 回到[Windows 虛擬桌面](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop)。<br>
