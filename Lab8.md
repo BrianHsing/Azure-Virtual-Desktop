@@ -6,5 +6,12 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/wvd1.png "wvd1")<br>
  - 點選「應用程式群組」，可以看到已建立好桌面應用程式群組類型，點選「HostPool-DAG」，選擇指派，點選新增，新增 user1、user2。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/assign1.png "assign1")<br>
- 
+ - 當您完成 [Lab9](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md) 時，您可以比較 user1、user2、user3 登入後所看到的畫面差異。
+	- user1
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/assign2.png "assign2")<br>
+	- user2
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/assign3.png "assign3")<br>
+	- user3
+     ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/assign4.png "assign4")<br>
+
  完成後，請[前往 Lab9](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md)。<br>
