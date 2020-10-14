@@ -13,7 +13,7 @@
  - 重複上述動作在應用程式選擇 Remote Desktop Connection，點選儲存後點選「下一步」。<br>
  - 指派頁籤中，您可以指派使用者或群組，授予權限使用，點選「下一步」。此範例加入 user2 這位使用者。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/remoteapp4.png "remoteapp4")<br>
- - 工作區頁籤中，註冊應用程式群組選擇「是」，並選擇 workspace 後，以點選「檢閱+建立」，完成 RemoteApp 的建立。<br>
+ - 工作區頁籤中，註冊應用程式群組選擇「是」，並選擇 workspace 後，以點選「檢閱+建立」，完成 RemoteApp 的建立。您如果選擇 workspace 在有指派使用者的情境下也無法看到桌面或 RemoteApp。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/remoteapp5.png "remoteapp6")<br>
 
  完成後，請[前往 Lab8](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab8.md)。<br>
