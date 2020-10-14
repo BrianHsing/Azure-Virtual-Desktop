@@ -14,6 +14,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/wvd4.png "wvd4")<br>
   > **Tips.名稱前置詞限制 11 個字元且不得重複** <br>
  - 在同個頁籤中，選擇虛擬網路 aadds-vnet，子網路選擇 rdsh-subnet，其餘目前都先選擇否，後續均可以更改。下方請填入 Azure AD 任何一個使用者帳號密碼，但此組使用者物件必須擁有密碼雜湊，否則加入網域會失敗。另外如果在虛擬網路的 DNS 伺服器如果也沒有設定指向 Azure AD Domain Services 或 Windows ADDS 任一個的話，在這個步驟也會失敗。<br>
+  https://docs.microsoft.com/zh-tw/azure/active-directory-domain-services/faqs#ive-enabled-azure-ad-domain-services-what-user-account-do-i-use-to-domain-join-machines-to-this-domain<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/wvd5.png "wvd5")<br>
  - 工作區頁籤中，請選擇「是」，並新增工作區。完成後請點選「檢閱+建立」，開始部署 WVD<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/wvd6.png "wvd6")<br>
