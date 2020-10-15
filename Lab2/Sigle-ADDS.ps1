@@ -26,7 +26,7 @@ $virtualNetwork | Set-AzVirtualNetwork
 
 #建立ADDS VM
 $User = "isadmin"
-$PWord = ConvertTo-SecureString -String "iadmin@123" -AsPlainText -Force
+$PWord = ConvertTo-SecureString -String "isadmin@123" -AsPlainText -Force
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $PWord
 #Create a public IP address and specify a DNS name
 $virtualNetwork = Get-AzVirtualNetwork -Name $vmName-vnet -ResourceGroupName $resourceGroup 
