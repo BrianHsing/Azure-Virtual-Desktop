@@ -7,7 +7,7 @@
     - 輸入`Connect-AzAccount` 登入<br>
 	- 上傳 Sigle-ADDS.ps1<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/cloudshell-uploadps1.PNG "cloudshell-uploadps1")
-	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/upload-success.PNG "upload-succsess")
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/upload-success.png "upload-succsess")
 	- 輸入並執行 `./Single-Hyper-V.ps1` <br>
  - 使用 Azure-Migrate-Basic.ps1 佈署移轉基礎環境 <br> 
 	- 上傳 Azure-Migrate-Basic.ps1<br>
