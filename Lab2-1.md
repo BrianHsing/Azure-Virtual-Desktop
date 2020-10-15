@@ -19,7 +19,7 @@
 	- 點選 Add a new forest，並輸入 Root domain name，此範例先設定 brianhsing.club，後續再做 AAD Connect 時，就不需要再另外設定 UPN 尾碼。<br>
 	> **Tips.請不要使用結尾為「.local」的網域，此網域無法在虛擬網路內路由** <br>
 	
-	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds4.png "adds4")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds4.png "adds4")<br>
 	- 自行輸入 Directory Services Restore Mode 密碼<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds5.png "adds5")<br>
 	- DNS Option 直接選擇下一步<br>
@@ -30,6 +30,15 @@
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds8.png "adds8")<br>
 	- Review Option 下一步後，Prerequisites Check 頁面選擇 Install，等待安裝結束後，會自動開機。<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds9.png "adds9")<br>
-	- 開啟<br>
+	- 使用 Bastion 連線 (您設定的NetBios\isadmin / isadmin@123)<br>
+	- 開啟 Active Directory Users and Computers <br>
 	- 建立組織單位 (organizational unit) WVD<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds10.png "adds10")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds11.png "adds11")<br>
 	- 建立使用者物件 user1、user2、user3<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds12.png "adds12")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds13.png "adds13")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds14.png "adds14")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds15.png "adds15")<br>
+	
+	完成後，請[前往 Lab2-2](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-2.md)。<br>
