@@ -10,6 +10,10 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/upload-succsess.png "upload-succsess")<br>
 	- 輸入並執行 `./Sigle-ADDS.ps1` <br>
  - 設定虛擬網路DNS 伺服器 ADDS-vnet 指向 172.16.1.4<br>
- - 設定客體虛擬機器的 ADDS <br> 
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds1.png "adds1")<br>
+ - 進入虛擬機器設定 Active Directory 網域服務 <br> 
 	- 進入 Azure Portal，選擇虛擬機器 ADDS，使用 Bastion 連線 (isadmin/isadmin@123) <br>
-	- 
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds2.png "adds2")<br>
+	- 開啟伺服器管理員 (Server Manager)，點選 Promote this server to a domain controller<br>
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds3.png "adds3")<br>
+	-
