@@ -43,4 +43,4 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
  - 您也可以在 Azure 入口網站選擇剛建立好的儲存體帳戶，在左邊欄位的設定類別中選擇組態，並檢查 Active Directory 網域服務 (AD DS) 為「已啟用」<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/ada4.png "ada4")<br>
- 完成後，請[前往 Lab4](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab4.md)。<br>
+ 完成後，請[前往 Lab5](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab5.md)。<br>
