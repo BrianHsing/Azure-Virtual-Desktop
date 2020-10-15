@@ -1,8 +1,8 @@
 # Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD
 ## Lab2-2.設定 Azure AD Connect
  - 在 Server Manager 視窗中，選擇 Local Server，將 IE Enhanced Security Configuration 設定調整為 Off<br>
-  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add1.PNG "add1")<br>
- - 開啟 IE 瀏覽器，輸入 https://go.microsoft.com/fwlink/?LinkId=615771，並下載。<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add1.png "add1")<br>
+ - 開啟 IE 瀏覽器，輸入 https://go.microsoft.com/fwlink/?LinkId=615771 ，並下載。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add2.png "add2")<br>
  - 開啟 AzureADConnect.exe 安裝<br>
  - 勾選「I agree to the License terms and privacy notes.」，點選「Continue」<br>
