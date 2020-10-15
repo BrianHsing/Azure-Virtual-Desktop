@@ -29,8 +29,8 @@
 ## Lab 實戰演練
  下列每一個 Lab 都是能讓您建立出獨立且完整的 WVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
  練習路徑1 - Lab1 + Lab4 ~ Lab8<br>
- 練習路徑2 - Lab2 + Lab4 ~ Lab8<br>
- 練習路徑3 - Lab3 + Lab4 ~ Lab8<br>
+ 練習路徑2 - Lab2 + Lab5 ~ Lab8<br>
+ 練習路徑3 - Lab3 + Lab5 ~ Lab8<br>
  
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
 	 - [Lab1-1.建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-1.md)<br>
