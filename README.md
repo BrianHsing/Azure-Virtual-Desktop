@@ -1,6 +1,6 @@
 # Windows 虛擬桌面
 
- 本篇會教會您如何快速的建置 Windows Virtual Desktop，再文章中簡稱為「WVD」， 主要會說明 WVD 的建置細節，使用適合的方式進行身分驗證、建立 Azure
+ 本篇會教會您如何快速的建置 Windows Virtual Desktop，後續文章中簡稱為「WVD」， 主要會說明 WVD 的建置細節，使用適合的方式進行身分驗證、建立 Azure
  File 作 User Profile 的儲存區，協助您順暢的建置 WVD， 輕鬆的體驗 WVD 所帶來的好處。<br>
 ## 部署 Windows 虛擬桌面的先決條件
  - 適當的授權<br>
