@@ -31,13 +31,13 @@
  練習路徑1 - Lab1 + Lab4 ~ Lab8<br>
  練習路徑2 - Lab2 + Lab5 ~ Lab8<br>
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 WVD<br>
-	 - [Lab1-1.建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-1.md)<br>
-	 - [Lab1-2.建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-2.md)<br>
-	 - [Lab1-3.建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
+	 - [Lab1-1 - 建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-1.md)<br>
+	 - [Lab1-2 - 建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-2.md)<br>
+	 - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
  - Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD<br>
-	 - [Lab2-1.建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-1.md)<br>
-	 - [Lab2-2.設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-2.md)<br>
-	 - [Lab2-3.建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+	 - [Lab2-1 - 建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-1.md)<br>
+	 - [Lab2-2 - 設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-2.md)<br>
+	 - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
  - [Lab4 - 設定虛擬網路並建立 Azure Bastion](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab4.md)<br>
  - [Lab5 - 透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab5.md)<br>
  - [Lab6 - 設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab6.md)<br>
