@@ -9,7 +9,7 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/cloudshell-uploadps1.PNG "cloudshell-uploadps1")<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/upload-succsess.png "upload-succsess")<br>
 	- 輸入並執行 `./Sigle-ADDS.ps1` <br>
- - 設定 Virtual Network DNS 伺服器
+ - 設定虛擬網路DNS 伺服器 ADDS-vnet 指向 172.16.1.4<br>
  - 設定客體虛擬機器的 ADDS <br> 
 	- 進入 Azure Portal，選擇虛擬機器 ADDS，使用 Bastion 連線 (isadmin/isadmin@123) <br>
 	- 
