@@ -9,5 +9,7 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage3.png "storage3")<br>
  - 網路的頁籤中，選擇公用端點(所有網路)。如果您有比較嚴謹的存取控管，您可以選擇公用端點，只允許您指定的虛擬網路中的流量存取。這一步，請直接點選下方「檢閱+建立」，完成儲存體帳戶的建立<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage4.png "storage4")<br>
+ - 開啟 IE 瀏覽器，輸入 https://github.com/Azure-Samples/azure-files-samples/releases 後下載<br>
  - 重新回到虛擬機器的頁面，開啟 Powershell ISE<br>
+ - 輸入`Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Currentuser`，跳出確認視窗，請選擇 「Yes to All」<br>
  - 輸入`Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Currentuser` <br>
