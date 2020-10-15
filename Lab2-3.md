@@ -1,7 +1,7 @@
 # Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 WVD
 ## Lab2-3.建立 Azure Files 並啟用 Active Directory 驗證
 
- - 在搜尋列搜尋儲存體帳戶，並點選<br>
+ - 到 Azure 入口網站中，在搜尋列搜尋儲存體帳戶，並點選<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage1.png "storage1")<br>
  - 點選「新增」<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage2.png "storage2")<br>
@@ -9,3 +9,5 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage3.png "storage3")<br>
  - 網路的頁籤中，選擇公用端點(所有網路)。如果您有比較嚴謹的存取控管，您可以選擇公用端點，只允許您指定的虛擬網路中的流量存取。這一步，請直接點選下方「檢閱+建立」，完成儲存體帳戶的建立<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage4.png "storage4")<br>
+ - 重新回到虛擬機器的頁面，開啟 Powershell ISE<br>
+ - 輸入`Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Currentuser` <br>
