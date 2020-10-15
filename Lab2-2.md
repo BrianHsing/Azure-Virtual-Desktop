@@ -32,7 +32,7 @@
  - 按下「Next」<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add14.png "add14")<br>
  - 選擇「Install」<br>
-  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add5.png "add15")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add15.png "add15")<br>
  - 完成<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/add16.png "add16")<br>
  
