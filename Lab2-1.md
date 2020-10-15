@@ -16,4 +16,8 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds2.png "adds2")<br>
 	- 開啟伺服器管理員 (Server Manager)，點選 Promote this server to a domain controller<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds3.png "adds3")<br>
-	-
+	- 點選 Add a new forest，並輸入 Root domain name，此範例先設定 brianhsing.club，後續再做 AAD Connect 時，就不需要再另外設定 UPN 尾碼。<br>
+	> **Tips.請不要使用結尾為「.local」的網域，此網域無法在虛擬網路內路由** <br>
+	
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/adds4.png "adds4")<br>
+
