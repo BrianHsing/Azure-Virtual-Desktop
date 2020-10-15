@@ -43,4 +43,10 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
  - 您也可以在 Azure 入口網站選擇剛建立好的儲存體帳戶，在左邊欄位的設定類別中選擇組態，並檢查 Active Directory 網域服務 (AD DS) 為「已啟用」<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/ada4.png "ada4")<br>
+ - 在左邊欄位的檔案服務類別中選擇檔案共用，並新增檔案共用，輸入您的檔案共用名稱與容量，容量介於 100 GiB 到 102,400 GiB。點選建立。<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage6.png "storage6")<br>
+ - 點選剛建立的檔案共用，選擇左欄存取控制(IAM)後，選擇新增，指派儲存體檔案資料 SMB 共同參與者角色，並選取 Lab1-2 所建立的使用者，儲存。<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage7.png "storage7")<br>
+ - 點選左欄設定類別中的屬性，查看檔案共用路徑，此範例的路徑為「//stor1013.file.core.windows.net/userprofile」，在 Lab 會使用到此路徑，其中stor1013、userprofile 應該會依照您實際輸入的名稱顯示。<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/storage8.png "storage8")<br>
  完成後，請[前往 Lab5](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab5.md)。<br>
