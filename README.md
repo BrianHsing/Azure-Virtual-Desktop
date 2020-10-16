@@ -3,6 +3,8 @@
  本篇會教會您如何快速的建置 Windows Virtual Desktop，後續文章中簡稱為「WVD」， 主要會說明 WVD 的建置細節，使用適合的方式進行身分驗證、建立 Azure
  File 作 User Profile 的儲存區，協助您順暢的建置 WVD， 輕鬆的體驗 WVD 所帶來的好處。<br>
 ## 部署 Windows 虛擬桌面的先決條件
+ - 什麼是 Windows 虛擬桌面？<br>
+   https://docs.microsoft.com/zh-tw/azure/virtual-desktop/overview
  - 適當的授權<br>
    https://azure.microsoft.com/zh-tw/pricing/details/virtual-desktop/<br>
  - Azure 訂用帳戶，如果您沒有，可以註冊一個月的免費試用<br>
@@ -26,6 +28,18 @@
  https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-host-pools-user-profile<br>
  - Azure NetApp Files 搭配 Windows ADDS<br>
  https://docs.microsoft.com/zh-tw/azure/virtual-desktop/create-fslogix-profile-container<br>
+## 需求參考的資訊
+
+ - Windows 虛擬桌面體驗估算器<br>
+   https://azure.microsoft.com/zh-tw/services/virtual-desktop/assessment/
+ - 網路指導方針<br>
+   https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/network-guidance?context=/azure/virtual-desktop/context/context
+ - 虛擬機器縮放指導方針<br>
+   https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context
+ - 不同的遠端桌面用戶端支援比較<br>
+   https://docs.microsoft.com/zh-tw/windows-server/remote/remote-desktop-services/clients/remote-desktop-app-compare
+
+
 ## Lab 實戰演練
  下列每一個 Lab 都是能讓您建立出獨立且完整的 WVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
  練習路徑1 - Lab1 + Lab4 ~ Lab8<br>
