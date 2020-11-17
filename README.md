@@ -59,7 +59,13 @@
  - [Lab8 - 指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab8.md)<br>
  - [Lab9 - 開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md)<br>
 
-## 如何更有效率地指派應用程式
+## 如何更有效率地指派應用程式給予使用者
+ - 多個映像檔
+   - 為不同使用者定製不同的主機集區
+ - FSLogix 應用程式遮罩
+   - 在同一個主機集區使用傳統應用程式分層，可自訂原則，可能會有授權許可的問題
+ - MSIX 應用程式連接
+   - 將應用程式容器化並動態掛載，可能需要重新打包應用程式
 
 ## 深入研究
  - 部署 Storage Spaces Direct (S2D)<br>
