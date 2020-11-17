@@ -59,6 +59,8 @@
  - [Lab8 - 指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab8.md)<br>
  - [Lab9 - 開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md)<br>
 
+## 如何更有效率地指派應用程式
+
 ## 深入研究
  - 部署 Storage Spaces Direct (S2D)<br>
    https://docs.microsoft.com/zh-tw/windows-server/storage/storage-spaces/deploy-storage-spaces-direct
