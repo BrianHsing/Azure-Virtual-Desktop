@@ -23,6 +23,7 @@
    Set-Location Cert:\CurrentUser\My
    Get-ChildItem | Format-Table Subject, FriendlyName, Thumbprint
    ```
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert1.png "wvd6")
  - 匯出使用密碼保護的憑證
    - 填入您自定義的密碼到此區塊 <Your Password><br>
    - 將剛顯示的參數 Thumbprint 填入 <Certificate Thumbprint><br>
@@ -31,7 +32,9 @@
    $password = ConvertTo-SecureString -String <Your Password> -Force -AsPlainText 
    Export-PfxCertificate -cert "Cert:\CurrentUser\My\<Certificate Thumbprint>" -FilePath C:\MSIXssc.pfx -Password $password
    ```
+ 原文說明請參考 https://docs.microsoft.com/zh-tw/windows/msix/package/create-certificate-package-signing<br>
 ## 將舊版應用程式轉換成 MSIX 套件
+ - 
 ## 產生適用於 MSIX 的 VHD
 ## 建立 Azure File 儲存 VHD 並設定存取權限
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼進行 MSIX 應用程式連接
