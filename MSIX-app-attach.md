@@ -53,7 +53,8 @@
  - 此步驟您需要選擇要將此套件建立在哪個位置，並點選建立，成功建立後點選關閉即可<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package9.png "package9")<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package10.png "package10")<br>
-   
+ - 桌面會出現您封裝好的 MSIX 套件，此範例檔名為「notepad_1.0.0.0_x64__78b8wv0dmcrmj」<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package11.png "package11")<br>
 ## 產生適用於 MSIX 的 VHD
 ## 建立 Azure File 儲存 VHD 並設定存取權限
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼進行 MSIX 應用程式連接
