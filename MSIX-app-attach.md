@@ -41,7 +41,7 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert3.png "cert3")
  - 請將憑證 MSIXssc.pfx 按照步驟匯入<br>
  - 完成後請開啟命令提示字元，輸入`gpupdate /force`<br>
-## 將舊版應用程式轉換成 MSIX 套件
+## 將傳統應用程式轉換成 MSIX 套件
  - 開啟 MSIX Packaging Tool，點選 Application Package<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package1.png "package1")<br>
  - 選取「在這部電腦上建立套件」，按下一步<br>
