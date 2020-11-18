@@ -9,9 +9,6 @@
  3.應用程式之間不會有重複的檔案，而且 Windows 可跨應用程式管理共用檔案。<br>
 
 [更深入了解什麼是 MSIX？](https://docs.microsoft.com/zh-tw/windows/msix/overview)<br>
-
-## WVD 使用 MSIX 應用程式連接的優點
-  MSIX 應用程式會寫入至自己的虛擬登錄檔和應用程式資料檔案夾，在解除安裝或重設應用程式時刪除此資料，其他應用程式無法存取 MSIX 應用程式的虛擬登錄檔或虛擬檔案系統。MSIX 應用程式可讓企業保持最新狀態，並確保其應用程式永遠保持最新狀態。其可讓 IT 專業人員和開發人員提供以使用者為中心的解決方案，同時藉由減少重新封裝的需求，來降低應用程式的擁有成本。<br>
 ## 設定 MSIX 應用程式連接的先決條件
  - 在 Azure 入口網站建立版本為 Windows 10 enterprise multi-session version 2004 的虛擬機器，並[下載 MSIX 封裝工具](https://www.microsoft.com/en-us/p/msix-packaging-tool/9n5lw3jbcxkf)<br>
  - 準備需要進行轉換 MSIX 套件的應用程式，此範例使用 [Notepad++](https://notepad-plus-plus.org/downloads/v7.8.8/)，請下載至桌面<br>
