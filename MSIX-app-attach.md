@@ -131,5 +131,5 @@
      - 可參考下載[Deregister.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Deregister.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
      - 執行此 ps1 指令碼，您將無法搜尋到 Notepad++ 此應用程式<br>
    - 取消暫存，建議在關機時使用<br>
-     - 可參考下載[Destage.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Destage.ps1)，開啟此 ps1 檔案您必須要填入一個參數 vhdSrc、packageName<br>
+     - 可參考下載[Destage.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Destage.ps1)，開啟此 ps1 檔案您必須要填入兩個參數 vhdSrc、packageName<br>
 ## 在群組原則中使用啟動、關機、登入和登出指令碼
