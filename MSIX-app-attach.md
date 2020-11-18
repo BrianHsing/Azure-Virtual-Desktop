@@ -125,7 +125,7 @@
    - 註冊，可立即使用應用程式<br>
      - 可參考下載[Register.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Register.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
      - 您在執行這個 Powershell 指令碼時，可以先確認工作階段主機是否確實沒有安裝 Notepad++ 應用程式<br>
-     - 執行此 ps1 指令碼，您就可以搜尋 Notepad++ 並開啟此應用程式<br>
+     - 執行此 ps1 指令碼，您就可以搜尋 Notepad++ 並開啟此應用程式，下圖可展示在沒有安裝在本機的狀況下，也可以正常執行<br>
        ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/register1.png "register1")<br>
    - 取消註冊，應用程式立即無法從工作階段主機被使用<br>
      - 可參考下載[Deregister.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Deregister.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
