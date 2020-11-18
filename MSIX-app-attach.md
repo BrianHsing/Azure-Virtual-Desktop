@@ -9,11 +9,10 @@
  3.應用程式之間不會有重複的檔案，而且 Windows 可跨應用程式管理共用檔案。<br>
 
 [更深入了解什麼是 MSIX？](https://docs.microsoft.com/zh-tw/windows/msix/overview)<br>
+[了解您的安裝程式](https://docs.microsoft.com/zh-tw/windows/msix/packaging-tool/know-your-installer)<br>
 ## 設定 MSIX 應用程式連接的先決條件
  - 在 Azure 入口網站建立版本為 Windows 10 enterprise multi-session version 2004 的虛擬機器，並[下載 MSIX 封裝工具](https://www.microsoft.com/en-us/p/msix-packaging-tool/9n5lw3jbcxkf)<br>
  - 準備需要進行轉換 MSIX 套件的應用程式，此範例使用 [Notepad++](https://notepad-plus-plus.org/downloads/v7.8.8/)，請下載至桌面<br>
- - 了解您的安裝程式<br>
-   https://docs.microsoft.com/zh-tw/windows/msix/packaging-tool/know-your-installer
 ## 建立套件簽署的憑證
  -連入到您剛建立的虛擬機器，本文章會建立自我簽署憑證用於簽署 MSIX 套件<br>
  - 開啟以系統管理員權限執行的 PowerShell<br>
