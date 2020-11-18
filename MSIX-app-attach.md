@@ -1,10 +1,15 @@
 # MSIX 應用程式連接
 
+## 了解什麼是 MSIX？ 
+ MSIX 是一種 Windows 應用程式套件格式，可為所有 Windows 應用程式提供新式封裝體驗。MSIX 套件格式除了支援對 Win32、WPF 和 Windows Forms 應用程式的新式封裝和部署功能，也保留了現有應用程式套件和/或安裝檔案的功能。<br>
+
+ MSIX 提供了可靠的安裝，在保證解除安裝的情況下，進行數百萬次安裝，成功率為 99.96％。MSIX 透過只下載 64k 區塊，減少對網路頻寬的影響。有了 MSIX，應用程式之間就不會有重複的檔案，而且 Windows 可跨應用程式管理共用檔案。<br>
+
+- 了解什麼是 MSIX？<br>
+  https://docs.microsoft.com/zh-tw/windows/msix/overview<br>
 ## WVD 使用 MSIX 應用程式連接的優點
   MSIX 應用程式會寫入至自己的虛擬登錄檔和應用程式資料檔案夾，在解除安裝或重設應用程式時刪除此資料，其他應用程式無法存取 MSIX 應用程式的虛擬登錄檔或虛擬檔案系統。MSIX 應用程式可讓企業保持最新狀態，並確保其應用程式永遠保持最新狀態。其可讓 IT 專業人員和開發人員提供以使用者為中心的解決方案，同時藉由減少重新封裝的需求，來降低應用程式的擁有成本。<br>
 ## 設定 MSIX 應用程式連接的先決條件
- - 了解什麼是 MSIX？<br>
-   https://docs.microsoft.com/zh-tw/windows/msix/overview<br>
  - 在 Azure 入口網站建立版本為 Windows 10 enterprise multi-session version 2004 的虛擬機器，並[下載 MSIX 封裝工具](https://www.microsoft.com/en-us/p/msix-packaging-tool/9n5lw3jbcxkf)<br>
  - 準備需要進行轉換 MSIX 套件的應用程式，此範例使用 [Notepad++](https://notepad-plus-plus.org/downloads/v7.8.8/)，請下載至桌面<br>
  - 了解您的安裝程式<br>
