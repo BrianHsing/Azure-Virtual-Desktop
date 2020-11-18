@@ -88,7 +88,6 @@
    ```
    # 將 MSIX 套件解壓縮至您建立並掛載的 VHD
    & 'C:\msix\msixmgr\x64\msixmgr.exe' -Unpack -packagePath 'C:\msix\notepad_1.0.0.0_x64__78b8wv0dmcrmj.msix' -destination 'X:\notepad++' -applyacls
-   # 
    # 抓取磁碟區 GUID 稍後會用到
    $volumeGuid = (((Get-Volume -DriveLetter x).UniqueId).split('{')[1]).split('}')[0]
    $volumeGuid
