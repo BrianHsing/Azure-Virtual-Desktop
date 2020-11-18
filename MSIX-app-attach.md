@@ -91,10 +91,10 @@
  - 點兩下後，會看到 notepad_1.0.0.0_x64__78b8wv0dmcrmj 資料夾，稍後請將此資料夾名稱填入 packageName 的參數<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
 ## 建立 Azure File 儲存 VHD 並設定存取權限
- - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相同權限<br>
+ - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相應權限<br>
    - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
    - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
  - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔以及憑證 MSIXssc.pfx 移動到此檔案共用<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼進行 MSIX 應用程式連接
 ## 在群組原則中使用啟動、關機、登入和登出指令碼
