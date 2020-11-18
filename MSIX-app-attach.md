@@ -8,7 +8,8 @@
  2.透過只下載 64k 區塊，減少對網路頻寬的影響。<br>
  3.應用程式之間不會有重複的檔案，而且 Windows 可跨應用程式管理共用檔案。<br>
  
- 透過 MSIX，使用檔案系統和登錄虛擬化進行隔離，應用程式會寫入至自己的虛擬登錄和應用程式資料檔案夾，並在解除安裝或重設應用程式時刪除此資料。其他應用程式無法存取 MSIX 應用程式的虛擬登錄檔或虛擬檔案系統。<br>
+ 透過 MSIX，使用檔案系統和登錄虛擬化進行隔離，應用程式會寫入至自己的虛擬登錄和應用程式資料檔案夾，並在解除安裝或重設應用程式時刪除此資料，利用 MSIX 的功能特性幫助 WVD 達到完全的動態環境。<br>
+
 [更深入了解什麼是 MSIX？](https://docs.microsoft.com/zh-tw/windows/msix/overview)<br>
 [了解您的安裝程式](https://docs.microsoft.com/zh-tw/windows/msix/packaging-tool/know-your-installer)<br>
 ## 設定 MSIX 應用程式連接的準備工作
