@@ -55,7 +55,46 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package10.png "package10")<br>
  - 桌面會出現您封裝好的 MSIX 套件，此範例檔名為「notepad_1.0.0.0_x64__78b8wv0dmcrmj」<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package11.png "package11")<br>
+ - 稍後請將此檔案「notepad_1.0.0.0_x64__78b8wv0dmcrmj」移動至 C 磁碟下的 MSIX 資料夾<br>
 ## 產生適用於 MSIX 的 VHD
+ - 在 C 磁碟建立 MSIX 資料夾，[下載 msixmgr 工具](https://aka.ms/msixmgr)，並將 .zip 解壓縮至 MSIX 資料夾<br>
+ - 因為等等用到的指令會需要安裝 Hyper-V 功能，以系統管理員身分開啟 Powershell 輸入以下指令後，重新開機<br>
+   `Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart`
+ - 以系統管理員身分開啟 Powershell 產生適用於 MSIX 的 VHD<br>
+   ```
+   # 定義您的 VHD 名稱
+   $App = 'Notepad'
+   # 建立一個 50 MB 的動態 VHD，建立在指定位置，請確定 VHD 夠大，足以持有解壓的 MSIX
+   New-VHD -SizeBytes 50MB -Path C:\msix\msixmgr\$App.vhd -Dynamic -Confirm:$false
+   # 掛載新建立的 VHD
+   $vhdObject = Mount-VHD C:\msix\msixmgr\$App.vhd -Passthru
+   # 初始化 VHD
+   $disk = Initialize-Disk -Passthru -Number $vhdObject.Number
+   # 建立新的磁碟分割，您可能會看到需要請您格式化的訊息，如果您已經照著執行格式化，您就不需要在執行下一個命令
+   $partition = New-Partition -AssignDriveLetter -UseMaximumSize -DiskNumber $disk.Number
+   # 格式化磁碟分割
+   Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
+   ```
+ - 更改您新建的 VHD 磁碟代號為 x <br>
+ - 繼續使用 Powershell 執行以下命令將 MSIX 套件解壓縮至您剛新建好的 VHD<br>
+   ```
+   # 將 MSIX 套件解壓縮至您建立並掛載的 VHD
+   & 'C:\msix\msixmgr\x64\msixmgr.exe' -Unpack -packagePath 'C:\msix\notepad_1.0.0.0_x64__78b8wv0dmcrmj.msix' -destination 'X:\notepad++' -applyacls
+   # 
+   # 抓取磁碟區 GUID 稍後會用到
+   $volumeGuid = (((Get-Volume -DriveLetter x).UniqueId).split('{')[1]).split('}')[0]
+   $volumeGuid
+   ```
+   此範例抓取到的值為`4147afac-3b5d-46ca-96ab-2edd2da08e09`，稍後請填入 volumeGuid 的參數<br>
+ - 開啟您掛載的 VHD，x 磁碟，可以看到 Notepad++ 資料夾，稍後請將此資料夾名稱填入 parentFolder 的參數<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd1.png "vhd1")<br>
+ - 點兩下後，會看到 notepad_1.0.0.0_x64__78b8wv0dmcrmj 資料夾，稍後請將此資料夾名稱填入 packageName 的參數<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
 ## 建立 Azure File 儲存 VHD 並設定存取權限
+ - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相同權限<br>
+   - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
+   - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+ - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔以及憑證 MSIXssc.pfx 移動到此檔案共用<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼進行 MSIX 應用程式連接
 ## 在群組原則中使用啟動、關機、登入和登出指令碼
