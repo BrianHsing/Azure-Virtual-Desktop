@@ -32,7 +32,15 @@
    $password = ConvertTo-SecureString -String <Your Password> -Force -AsPlainText 
    Export-PfxCertificate -cert "Cert:\CurrentUser\My\<Certificate Thumbprint>" -FilePath C:\MSIXssc.pfx -Password $password
    ```
- 原文說明請參考 https://docs.microsoft.com/zh-tw/windows/msix/package/create-certificate-package-signing<br>
+   原文說明請參考 https://docs.microsoft.com/zh-tw/windows/msix/package/create-certificate-package-signing<br>
+## 使用群組原則將憑證散發到工作階段主機
+ - 在您的網域控制站上啟動「群組原則管理」<br>
+ - 尋找現有的群組原則物件，或是用於測試您可以直接選擇「Defult Domain Policy」，按下右鍵點選編輯<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert2.png "cert2")
+ - 依據展開「電腦設定原則」、「Windows 設定」、「安全性設定」、「公開金鑰原則」，找到「信任的根憑證授權」按下滑鼠右鍵，點選匯入<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert3.png "cert3")
+ - 請將憑證 MSIXssc.pfx 按照步驟匯入<br>
+ - 完成後請開啟命令提示字元，輸入`gpupdate /force`<br>
 ## 將舊版應用程式轉換成 MSIX 套件
  - 開啟 MSIX Packaging Tool，點選 Application Package<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package1.png "package1")<br>
@@ -94,7 +102,7 @@
  - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相應權限<br>
    - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
    - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
- - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔以及憑證 MSIXssc.pfx 移動到此檔案共用<br>
+ - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼進行 MSIX 應用程式連接
 ## 在群組原則中使用啟動、關機、登入和登出指令碼
