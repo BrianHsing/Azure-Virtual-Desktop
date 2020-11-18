@@ -59,7 +59,7 @@
  - [Lab8 - 指派使用者或群組](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab8.md)<br>
  - [Lab9 - 開始使用 WVD](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab9.md)<br>
 
-## 如何將應用程式發布給使用者
+## 如何將應用程式發布給特定使用者或群組
  完成 Lab 實戰演練，相信您已經知道如何建立 WVD 環境，現在您可能會思考應用程式如果正確地顯示在您指派的使用者登入的工作階段桌面，不同的工作角色常用的應用程式不盡相同，WVD 目前有三種方式讓您達到這個目的，您可以建立多個主機集區，讓不同的使用者或群組使用。或者您可以在同一個映像檔中先將您所有的應用程式安裝完成，再透過應用程式遮罩建立您的顯示使用原則。最後您也可以使用現代化的方式，將應用程式容器化，動態的掛載到相對應的使用者桌面。
  - 多個映像檔<br>
    - 為不同使用者定製不同的主機集區，是操作最容易的方式。<br>
