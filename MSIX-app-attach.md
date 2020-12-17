@@ -75,7 +75,7 @@
 ## 產生適用於 MSIX 的 VHD
  - 在 C 磁碟建立 MSIX 資料夾，[下載 msixmgr 工具](https://aka.ms/msixmgr)，並將 .zip 解壓縮至 MSIX 資料夾<br>
  - 因為等等用到的指令會需要安裝 Hyper-V 功能，以系統管理員身分開啟 Powershell 輸入以下指令後，重新開機<br>
-   `Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart`
+   `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
  - 以系統管理員身分開啟 Powershell 產生適用於 MSIX 的 VHD<br>
    ```
    # 定義您的 VHD 名稱
