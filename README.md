@@ -65,8 +65,9 @@
    - 為不同使用者定製不同的主機集區，是操作最容易的方式。<br>
  - FSLogix 應用程式遮罩<br>
    - 在同一個主機集區使用傳統應用程式分層，可自訂原則，可能會有授權許可的問題，操作難度中等。<br>
- - [MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX-app-attach.md)<br>
+ - MSIX 應用程式連接<br>
    - 將應用程式容器化並動態掛載，可能需要重新打包應用程式，操作難度較高。<br>
+   - [使用 PowerShell 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX-app-attach.md)
 
 ## 深入研究
  - 部署 Storage Spaces Direct (S2D)<br>
