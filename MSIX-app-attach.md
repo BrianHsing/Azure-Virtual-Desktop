@@ -113,6 +113,7 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
    > **本範例的路徑為 \\\stor1111.file.core.windows.net\app**<br>
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼讓使用者手動進行 MSIX 應用程式連接
+ - Session Host
  - 讓使用者連入您的 WVD 工作階段主機，並提供四個 Powershell 指令集給予使用者自行手動連接<br>
  - MSIX 應用程式連接流程主要分為四個階段，使用者如需使用必須要執行暫存、註冊這兩個 Powershell 指令集，如需取消使用會要執行取消註冊、取消暫存這兩個 Powershell 指令集<br>
    - 如果您想直接執行 ps1，不使用逐行執行時，您必須要先執行`Set-ExecutionPolicy RemoteSigned`<br>
