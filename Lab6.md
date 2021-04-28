@@ -12,7 +12,23 @@
  - 點選您剛解壓縮的資料夾，點選 x64 資料夾後，點選 Release 資料夾，點選執行 FSLogixAppSetup.exe<br>
  - 勾選 I agree to the license terms and conditions，選擇 Install，安裝完成後點選 Close。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/upd4.png "upd4")<br>
- - 使用系統管理員身分執行 Powershell ISE，此區指令分別設定以下資訊：<br>
+ > **Tips.如果您使用的作業系統為 Windows 10 Enterprise 20H2 版本，內建 FSLogix 安裝程式，不需要再安裝** <br>
+ 
+ - (GPO)使用群組原則自動套用至虛擬主機
+    - 開啟您稍早解壓縮的資料夾，會看到兩個檔案 fslogix.adml、fslogix.admx<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/gpofslogix1.PNG "gpofslogix1")<br>
+    - 複製 fslogix.adml 到您的 ADDS Server 或運作群組原則服務的 Server 資料夾路徑 C:\Windows\PolicyDefinitions\en-US <br>
+    - 複製 fslogix.admx 至同上環境，資料夾路徑 C:\Windows\PolicyDefinitions <br>
+    - 開啟群組原則管理編輯器，點選電腦管理，展開原則、展開系統管理範本、FSLogix、Profile Containers
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/gpofslogix2.PNG "gpofslogix2")<br>
+	- 啟用 FSLogix Profile
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/gpofslogix3.PNG "gpofslogix3")<br>
+	- 設定 Profile Container Size，建議最小設定 30 GB
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/gpofslogix4.PNG "gpofslogix4")<br>
+	- 設定使用者設定檔儲存路徑
+	- ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2/gpofslogix5.PNG "gpofslogix5")<br>
+ 
+ - (手動)使用系統管理員身分執行 Powershell ISE，此區指令分別設定以下資訊：<br>
 	- 設定檔容器路徑，可參考 Lab1-3、Lab2-3、Lab3-1<br>
 	- 在登錄檔指定路徑建立機碼<br>
 	- 啟用設定檔容器<br>
