@@ -2,7 +2,7 @@
 
 ## Lab5.透過 Azure 入口網站建立主機集區
 
- - 在搜尋列搜尋 Windows 虛擬桌面，並點選<br>
+ - 在搜尋列搜尋虛擬桌面，並點選<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/wvd1.png "wvd1")<br>
  - 點選「建立主機集區」<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/wvd2.png "wvd2")<br>

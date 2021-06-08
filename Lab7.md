@@ -2,7 +2,7 @@
 
 ## Lab7.建立 Remote App
 
- - 在搜尋列搜尋 Windows 虛擬桌面，並點選<br>
+ - 在搜尋列搜尋虛擬桌面，並點選<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/wvd1.png "wvd1")<br>
  - 點選「應用程式群組」，可以看到已建立好桌面應用程式群組類型，點選「新增」。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/remoteapp1.png "remoteapp1")<br>

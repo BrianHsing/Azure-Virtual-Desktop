@@ -77,6 +77,6 @@
    https://docs.microsoft.com/zh-tw/windows-server/storage/storage-spaces/deploy-storage-spaces-direct
  - What is FSLogix?<br>
    https://docs.microsoft.com/en-us/fslogix/overview
- - 使用 Azure 防火牆來保護 Windows 虛擬桌面部署<br>
+ - 使用 Azure 防火牆來保護 Azure 虛擬桌面部署<br>
    https://docs.microsoft.com/zh-tw/azure/firewall/protect-windows-virtual-desktop
  
