@@ -16,4 +16,4 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1/use6.png "use6")<br>
 	詳細請參考 https://docs.microsoft.com/zh-tw/azure/virtual-desktop/connect-windows-7-10<br>
 
-回到[Windows 虛擬桌面](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop)。<br>
+回到[Azure 虛擬桌面](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop)。<br>
