@@ -31,7 +31,7 @@
    Set-Location Cert:\CurrentUser\My
    Get-ChildItem | Format-Table Subject, FriendlyName, Thumbprint
    ```
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert1.png "cert1")
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/cert1.png "cert1")
  - 匯出使用密碼保護的憑證
    - 填入您自定義的密碼到此區塊 <Your Password><br>
    - 將剛顯示的參數 Thumbprint 填入 <Certificate Thumbprint><br>
@@ -44,33 +44,33 @@
 ## 使用群組原則將憑證散發到工作階段主機
  - 在您的網域控制站上啟動「群組原則管理」<br>
  - 尋找現有的群組原則物件，或是用於測試您可以直接選擇「Defult Domain Policy」，按下右鍵點選編輯<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert2.png "cert2")
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/cert2.png "cert2")
  - 依據展開「電腦設定原則」、「Windows 設定」、「安全性設定」、「公開金鑰原則」，找到「信任的根憑證授權」按下滑鼠右鍵，點選匯入<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/cert3.png "cert3")
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/cert3.png "cert3")
  - 請將憑證 MSIXssc.pfx 按照步驟匯入<br>
  - 完成後請開啟命令提示字元，輸入`gpupdate /force`<br>
 ## 將傳統應用程式轉換成 MSIX 套件
  - 開啟 MSIX Packaging Tool，點選 Application Package<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package1.png "package1")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package1.png "package1")<br>
  - 選取「在這部電腦上建立套件」，按下一步<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package2.png "package2")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package2.png "package2")<br>
  - 等待準備電腦頁面檢查，完成準備電腦後，按下一步<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package3.png "package3")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package3.png "package3")<br>
  - 選擇您剛下載的安裝程式，此範例的安裝程式使用 npp.7.8.8.Installer。憑證請選擇您剛剛建立的自我簽署憑證<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package4.png "package4")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package4.png "package4")<br>
  - 分別填入必要資訊套件名稱、套件顯示名稱、發行者顯示名稱、版本<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package5.png "package5")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package5.png "package5")<br>
  - 工具監視和抓取應用程式安裝作業的安裝階段，此工具將會在先前指定的環境中啟動安裝程式，而您必須透過安裝程式嚮導來安裝應用程式，如果您的 安裝程式需要重新啟動，您可以執行手動重新開機，或使用「重新開機」按鈕來執行重新開機，而在重新開機後，您會回到轉換程式中的這個點，完成應用程式安裝時，請按下一步<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package6.png "package6")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package6.png "package6")<br>
  - 點選下一步會出現提示視窗，請點選「Yes, move on」<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package7.png "package7")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package7.png "package7")<br>
  - 此頁面會顯示轉換包含服務的安裝程式服務報告，此範例不會有任何顯示，請點選下一步<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package8.png "package8")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package8.png "package8")<br>
  - 此步驟您需要選擇要將此套件建立在哪個位置，並點選建立，成功建立後點選關閉即可<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package9.png "package9")<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package10.png "package10")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package9.png "package9")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package10.png "package10")<br>
  - 桌面會出現您封裝好的 MSIX 套件，此範例檔名為「notepad_1.0.0.0_x64__78b8wv0dmcrmj」<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/package11.png "package11")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/package11.png "package11")<br>
  - 稍後請將此檔案「notepad_1.0.0.0_x64__78b8wv0dmcrmj」移動至 C 磁碟下的 MSIX 資料夾<br>
 ## 產生適用於 MSIX 的 VHD
  - 在 C 磁碟建立 MSIX 資料夾，[下載 msixmgr 工具](https://aka.ms/msixmgr)，並將 .zip 解壓縮至 MSIX 資料夾<br>
@@ -102,15 +102,15 @@
    ```
    此範例抓取到的值為`4147afac-3b5d-46ca-96ab-2edd2da08e09`，稍後會填入 volumeGuid 的參數<br>
  - 開啟您掛載的 VHD，x 磁碟，可以看到 Notepad++ 資料夾，稍後請將此資料夾名稱填入 parentFolder 的參數<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd1.png "vhd1")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd1.png "vhd1")<br>
  - 點兩下後，會看到 notepad_1.0.0.0_x64__78b8wv0dmcrmj 資料夾，稍後請將此資料夾名稱填入 packageName 的參數<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd2.png "vhd2")<br>
 ## 建立 Azure File 儲存 VHD 並設定存取權限
  - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相應權限<br>
-   - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab1-3.md)<br>
-   - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+   - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-3.md)<br>
+   - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-3.md)<br>
  - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
-   ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
    > **本範例的路徑為 \\\stor1111.file.core.windows.net\app**<br>
 ## 在 WVD 工作階段主機準備 PowerShell 指令碼讓使用者手動進行 MSIX 應用程式連接
  - Session Host
@@ -118,7 +118,7 @@
  - MSIX 應用程式連接流程主要分為四個階段，使用者如需使用必須要執行暫存、註冊這兩個 Powershell 指令集，如需取消使用會要執行取消註冊、取消暫存這兩個 Powershell 指令集<br>
    - 如果您想直接執行 ps1，不使用逐行執行時，您必須要先執行`Set-ExecutionPolicy RemoteSigned`<br>
    - 暫存
-     - 可參考下載[stage.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Stage.ps1)，開啟此 ps1 檔案您必須要填入幾個參數 vhdSrc、packageName、parentFolder、volumeGuid<br>
+     - 可參考下載[stage.ps1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/Stage.ps1)，開啟此 ps1 檔案您必須要填入幾個參數 vhdSrc、packageName、parentFolder、volumeGuid<br>
         ```
         $vhdSrc="\\stor1111.file.core.windows.net\app\notepad.vhd"
         $packageName = "notepad_1.0.0.0_x64__78b8wv0dmcrmj"
@@ -128,16 +128,16 @@
         $msixJunction = "C:\temp\AppAttach\"
         ```
      - 逐行執行的成功畫面如下<br>
-       ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/stage1.png "stage1")<br>
-       ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/stage2.png "stage2")<br>
-       ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/stage3.png "stage3")<br>
+       ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/stage1.png "stage1")<br>
+       ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/stage2.png "stage2")<br>
+       ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/stage3.png "stage3")<br>
    - 註冊，可立即使用應用程式<br>
-     - 可參考下載[Register.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Register.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
+     - 可參考下載[Register.ps1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/Register.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
      - 您在執行這個 Powershell 指令碼時，可以先確認工作階段主機是否確實沒有安裝 Notepad++ 應用程式<br>
      - 執行此 ps1 指令碼，您就可以搜尋 Notepad++ 並開啟此應用程式，下圖可展示在沒有安裝在本機的狀況下，也可以正常執行<br>
-       ![GITHUB](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/register1.png "register1")<br>
+       ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/register1.png "register1")<br>
    - 取消註冊，應用程式立即無法從工作階段主機被使用<br>
-     - 可參考下載[Deregister.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Deregister.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
+     - 可參考下載[Deregister.ps1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/Deregister.ps1)，開啟此 ps1 檔案您必須要填入一個參數 packageName<br>
      - 執行此 ps1 指令碼，您將無法搜尋到 Notepad++ 此應用程式<br>
    - 取消暫存，建議在關機時使用<br>
-     - 可參考下載[Destage.ps1](https://github.com/BrianHsing/Azure-Windows-Virtual-Desktop/blob/master/MSIX/Destage.ps1)，開啟此 ps1 檔案您必須要填入兩個參數 vhdSrc、packageName<br>
+     - 可參考下載[Destage.ps1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/Destage.ps1)，開啟此 ps1 檔案您必須要填入兩個參數 vhdSrc、packageName<br>
