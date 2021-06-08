@@ -17,13 +17,13 @@
  - (GPO)使用群組原則自動套用至虛擬主機
     - 開啟您稍早解壓縮的資料夾，會看到兩個檔案 fslogix.adml、fslogix.admx<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/gpofslogix1.PNG "gpofslogix1")<br>
-    - 複製 fslogix.adml 到您的 ADDS Server 或運作群組原則服務的 Server 資料夾路徑 C:\Windows\PolicyDefinitions\en-US <br>
+    - 複製 fslogix.adml 到您的 ADDS Server 或運作群組原則服務的 Server 資料夾路徑C:\Windows\PolicyDefinitions\en-US <br>
     - 複製 fslogix.admx 至同上環境，資料夾路徑 C:\Windows\PolicyDefinitions <br>
     - 開啟群組原則管理編輯器，點選電腦管理，展開原則、展開系統管理範本、FSLogix、Profile Containers
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/gpofslogix2.PNG "gpofslogix2")<br>
-	- 啟用 FSLogix Profile
+	- 啟用 FSLogix Profile<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/gpofslogix3.PNG "gpofslogix3")<br>
-	- 設定 Profile Container Size，建議最小設定 30 GB
+	- 設定 Profile Container Size，建議最小設定 30 GB<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/gpofslogix4.PNG "gpofslogix4")<br>
 	- 設定使用者設定檔儲存路徑
 	- ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/gpofslogix5.PNG "gpofslogix5")<br>
