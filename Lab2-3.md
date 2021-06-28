@@ -49,4 +49,26 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage7.png "storage7")<br>
  - 點選左欄設定類別中的屬性，查看檔案共用路徑，此範例的路徑為「//stor1013.file.core.windows.net/userprofile」，在 Lab 會使用到此路徑，其中stor1013、userprofile 應該會依照您實際輸入的名稱顯示。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage8.png "storage8")<br>
+## 設定 NTFS 存取權 
+ - 取得儲存體存取金鑰<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs3.png "storage-ntfs3")<br>
+ - 使用系統管理員登入已加入網域的虛擬機器<br>
+ - 使用系統管理員身分開啟命令提示字元 (CMD) ，執行此命令，desired-drive-letter 以您選擇的磁碟機號取代，storage-account-name 以您的儲存體名稱取代，share-name 以檔案共用名稱取代，storage-account-key 以儲存體帳戶金鑰取代<br>
+   ```
+    net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> /user:Azure\<storage-account-name> <storage-account-key>
+   ```
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs4.png "storage-ntfs4")<br>
+ - 您可以將稍早建立的 User 加入到群組 avdgroup 中<br>
+ - 設定允許您的 Azure 虛擬桌面使用者建立自己的設定檔容器，同時封鎖其他使用者對其設定檔容器的存取。
+	```
+    # 取代為 <mounted-drive-letter> 您所對應之磁片磁碟機代號
+    # 輸入群組的 UPN 包含需要存取共用的使用者，M 代表修改存取權
+	icacls <mounted-drive-letter>: /grant <user-email>:(M)
+    # 只有建立的使用者才有存取寫入權限，OI 代表物件繼承、CI 代表容器繼承、IO 代表僅限繼承
+    icacls <mounted-drive-letter>: /grant "Creator Owner":(OI)(CI)(IO)(M)
+    # 預設 Authenticated Users、Builtin\Users 可讓這些使用者讀取其他使用者的設定檔容器，所以要將這兩個角色移除
+    icacls <mounted-drive-letter>: /remove "Authenticated Users"
+    icacls <mounted-drive-letter>: /remove "Builtin\Users"
+	```
+    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs5.png "storage-ntfs5")<br>
  完成後，請[前往 Lab5](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab5.md)。<br>
