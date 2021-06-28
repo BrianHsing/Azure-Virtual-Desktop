@@ -22,7 +22,7 @@
  - 取得儲存體存取金鑰<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs3.png "storage-ntfs3")<br>
  - 使用 Azure AD Domain Services 系統管理員成員登入已加入網域的虛擬機器<br>
- - 使用系統管理員身分開啟命令提示字元 (CMD) ，執行此命令，<desired-drive-letter> 以您選擇的磁碟機號取代，<storage-account-name> 以您的儲存體名稱取代，<share-name> 以檔案共用名稱取代，<storage-account-key> 以儲存體帳戶金鑰取代<br>
+ - 使用系統管理員身分開啟命令提示字元 (CMD) ，執行此命令，desired-drive-letter 以您選擇的磁碟機號取代，storage-account-name 以您的儲存體名稱取代，share-name 以檔案共用名稱取代，storage-account-key 以儲存體帳戶金鑰取代<br>
    ```
     net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> /user:Azure\<storage-account-name> <storage-account-key>
    ```
