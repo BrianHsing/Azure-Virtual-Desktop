@@ -19,9 +19,9 @@
  - 點選左欄設定類別中的屬性，查看檔案共用路徑，此範例的路徑為「//stor1013.file.core.windows.net/userprofile」，在 Lab 會使用到此路徑，其中stor1013、userprofile 應該會依照您實際輸入的名稱顯示。<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage8.png "storage8")<br>
 ## 設定 NTFS 存取權 
- - 使用 Azure AD Domain Services 系統管理員成員登入已加入網域的虛擬機器<br>
  - 取得儲存體存取金鑰<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs3.png "storage-ntfs3")<br>
+ - 使用 Azure AD Domain Services 系統管理員成員登入已加入網域的虛擬機器<br>
  - 使用系統管理員身分開啟命令提示字元 (CMD) ，執行此命令，<desired-drive-letter> 以您選擇的磁碟機號取代，<storage-account-name> 以您的儲存體名稱取代，<share-name> 以檔案共用名稱取代，<storage-account-key> 以儲存體帳戶金鑰取代<br>
    ```
     net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> /user:Azure\<storage-account-name> <storage-account-key>
