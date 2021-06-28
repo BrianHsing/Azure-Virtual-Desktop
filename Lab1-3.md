@@ -39,5 +39,5 @@
     icacls <mounted-drive-letter>: /remove "Authenticated Users"
     icacls <mounted-drive-letter>: /remove "Builtin\Users"
 	```
-  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs5.png "storage-ntfs5")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage-ntfs5.png "storage-ntfs5")<br>
  完成後，請[前往 Lab4](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab4.md)。<br>
