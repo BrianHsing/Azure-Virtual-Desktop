@@ -125,5 +125,5 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission6.png "msix-af-permission6")<br>
    > **本範例的路徑為 \\\stor1013.file.core.windows.net\app**<br>
 
-   點選 [使用 Azure Portal 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop)<br>
+   點選 [在 Azure Portal 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Azure-Portal-MSIX-app-attach.md)<br>
    點選 [使用 PowerShell 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX-app-attach.md)<br>
