@@ -111,10 +111,11 @@
    - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-3.md)<br>
 
  - 權限重點有兩個，首先您必須在 Azure File 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限，其次您必須將 Azure File 設定 NTFS 權限，將電腦物件給予讀取和執行、讀取、列出資料夾內容的權限<br>
+ > **Tips.目前 MSIX app attach 並不支援 Azure AD Domain Services https://docs.microsoft.com/en-us/azure/virtual-desktop/app-attach-faq#can-i-use-azure-active-directory-domain-services-azure-ad-ds-with-msix-app-attach** <br>
    - 啟用虛擬機器系統指派的身分識別<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission.png "msix-af-permission")<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission2.png "msix-af-permission2")<br>
-   - 新增群組，將這些擁有系統指派的受控識別虛擬機器加入到同一個群組中。如果您是使用 ADDS，請在您的網域控制站中新增群組，如果您使用 Azure AD Domain Services，請直接在 Azure AD 中新增<br>
+   - 新增群組，將這些擁有系統指派的受控識別虛擬機器加入到同一個群組中。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission3.png "msix-af-permission3")<br>
    - 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission4.png "msix-af-permission4")<br>

@@ -12,7 +12,7 @@
  - 點選您剛解壓縮的資料夾，點選 x64 資料夾後，點選 Release 資料夾，點選執行 FSLogixAppSetup.exe<br>
  - 勾選 I agree to the license terms and conditions，選擇 Install，安裝完成後點選 Close。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/upd4.png "upd4")<br>
- > **Tips.如果您使用的作業系統為 Windows 10 Enterprise 20H2 版本，內建 FSLogix 安裝程式，不需要再安裝，可以略過上述步驟。** <br>
+ > **Tips.目前作業系統已內建 FSLogix 安裝程式，不需要再安裝，可以略過上述步驟。** <br>
  
  - (GPO)使用群組原則自動套用至虛擬主機
     - 開啟您稍早解壓縮的資料夾，會看到兩個檔案 fslogix.adml、fslogix.admx<br>
