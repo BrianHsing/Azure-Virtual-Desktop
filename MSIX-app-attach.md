@@ -1,4 +1,4 @@
-# 在 WVD 工作階段主機準備 PowerShell 指令碼讓使用者手動進行 MSIX 應用程式連接
+# 在 AVD 工作階段主機準備 PowerShell 指令碼讓使用者手動進行 MSIX 應用程式連接
  - Session Host
  - 讓使用者連入您的 WVD 工作階段主機，並提供四個 Powershell 指令集給予使用者自行手動連接<br>
  - MSIX 應用程式連接流程主要分為四個階段，使用者如需使用必須要執行暫存、註冊這兩個 Powershell 指令集，如需取消使用會要執行取消註冊、取消暫存這兩個 Powershell 指令集<br>
@@ -27,3 +27,5 @@
      - 執行此 ps1 指令碼，您將無法搜尋到 Notepad++ 此應用程式<br>
    - 取消暫存，建議在關機時使用<br>
      - 可參考下載[Destage.ps1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/Destage.ps1)，開啟此 ps1 檔案您必須要填入兩個參數 vhdSrc、packageName<br>
+
+回到[Azure 虛擬桌面](https://github.com/BrianHsing/Azure-Virtual-Desktop)。<br>

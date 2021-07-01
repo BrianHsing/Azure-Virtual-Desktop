@@ -123,3 +123,6 @@
  - 將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
    > **本範例的路徑為 \\\stor1111.file.core.windows.net\app**<br>
+
+   回到[使用 Azure Portal 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop)<br>
+   回到[使用 PowerShell 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX-app-attach.md)<br>
