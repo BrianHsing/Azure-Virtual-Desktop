@@ -118,7 +118,6 @@
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission3.png "msix-af-permission3")<br>
    - 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission4.png "msix-af-permission4")<br>
-   - 開啟您網域控制站，或是如果您使用的是 Azure AD Domain Services，請開啟加入網域的虛擬機器，並且安裝 遠端伺服器管理工具<br>
    - 將將檔案共用掛接到您開啟的虛擬機器中，並確保將您的電腦物件設定好 NTFS 權限<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission5.png "msix-af-permission5")<br>
  - 將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
