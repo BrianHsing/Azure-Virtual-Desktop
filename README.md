@@ -71,6 +71,7 @@
       - [教學影片](https://www.youtube.com/channel/UCKIAAhvrZjMazrNqYV9asFA)<br>
       - [利用事件檢視器 XML 進行錯誤判斷](https://github.com/stgeorgi/msixappattach/tree/master/event_viewer_filter)<br>
    - [了解 MSIX 應用程式連接與 MSIX 映像檔準備](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX-package.md)<br>
+   - [在 Azure Portal 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Azure-Portal-MSIX-app-attach.md)<br>
    - [使用 PowerShell 設定 MSIX 應用程式連接](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX-app-attach.md)<br>
    - [MSIX Event Log Tool](https://github.com/RMITBLOG/MSIX_APP_ATTACH/raw/master/MSIX%20Event%20Log%20tool/View%20MSIX%20logs.exe)<br>
 
