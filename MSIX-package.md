@@ -109,6 +109,12 @@
  - 建立檔案共用 app，100 GB，可以參考下面兩種方式建立，並設定相應權限<br>
    - [Lab1-3 - 建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-3.md)<br>
    - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+
+ - 權限重點有兩個，首先您必須在 Azure File 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限，其次您必須將 Azure File 設定 NTFS 權限，將電腦物件給予讀取和執行、讀取、列出資料夾內容的權限<br>
+   - 啟用虛擬機器系統指派的身分識別<br>
+   - 新增群組，將這些擁有系統指派的受控識別虛擬機器加入到同一個群組中<br>
+   - 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限<br>
+   - 
  - 掛載檔案共用，並將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
    > **本範例的路徑為 \\\stor1111.file.core.windows.net\app**<br>
