@@ -112,10 +112,15 @@
 
  - 權限重點有兩個，首先您必須在 Azure File 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限，其次您必須將 Azure File 設定 NTFS 權限，將電腦物件給予讀取和執行、讀取、列出資料夾內容的權限<br>
    - 啟用虛擬機器系統指派的身分識別<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission.png "msix-af-permission")<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission2.png "msix-af-permission2")<br>
    - 新增群組，將這些擁有系統指派的受控識別虛擬機器加入到同一個群組中。如果您是使用 ADDS，請在您的網域控制站中新增群組，如果您使用 Azure AD Domain Services，請直接在 Azure AD 中新增<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission3.png "msix-af-permission3")<br>
    - 設定使用者和工作階段主機擁有儲存體檔案資料 SMB 共用參與者的權限<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission4.png "msix-af-permission4")<br>
    - 開啟您網域控制站，或是如果您使用的是 Azure AD Domain Services，請開啟加入網域的虛擬機器，並且安裝 遠端伺服器管理工具<br>
    - 將將檔案共用掛接到您開啟的虛擬機器中，並確保將您的電腦物件設定好 NTFS 權限<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/msix-af-permission5.png "msix-af-permission5")<br>
  - 將名稱為 notepad 的 VHD 檔移動到此檔案共用<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/MSIX/vhd3.png "vhd3")<br>
    > **本範例的路徑為 \\\stor1111.file.core.windows.net\app**<br>
