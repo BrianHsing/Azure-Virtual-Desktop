@@ -41,7 +41,7 @@
 	``` 
  - 完成後 Powershell ISE 會顯示如下<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
- - 在左邊欄位的檔案服務類別中選擇檔案共用，就可以看到右邊視窗檔案共用設定下方顯示 Active Directory: 已設定，點選進去也會看到 Azure Active Directory 網域服務呈現反灰的狀態，Active Directory 則是可以設定<br>
+ - 在左邊欄位的檔案服務類別中選擇檔案共用，就可以看到右邊視窗檔案共用設定下方顯示 Active Directory: 已設定，點選進去也會看到 Azure Active Directory 網域服務呈現反灰的狀態，Active Directory 則是可以設定 <br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-1.png "ada4-1")<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-2.png "ada4-2")<br>
  - 在左邊欄位的檔案服務類別中選擇檔案共用，並新增檔案共用，輸入您的檔案共用名稱與容量，容量介於 100 GiB 到 102,400 GiB。點選建立。<br>

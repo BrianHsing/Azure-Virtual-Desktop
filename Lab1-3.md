@@ -10,7 +10,7 @@
  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage3.png "storage3")<br>
  - 網路的頁籤中，選擇公用端點(所有網路)。如果您有比較嚴謹的存取控管，您可以選擇公用端點，只允許您指定的虛擬網路中的流量存取。這一步，請直接點選下方「檢閱+建立」，完成儲存體帳戶的建立<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage4.png "storage4")<br>
- - 選擇剛建立好的儲存體帳戶，在左邊欄位的資料儲存類別中選擇檔案夠用，點選在右邊視窗檔案共用設定下方的 Active Directory: 「未設定」超連結，在步驟 1：啟用 Active Directory 資料來源中的 Azure Active Directory 網域服務窗格中點選設定，右邊會再跳出視窗，請勾選「為此檔案共用啟用 Azure Active Directory Domain Services (Azure AD DS)」後儲存，完成啟用 (2021/09/16 更新)。<br>
+ - 選擇剛建立好的儲存體帳戶，在左邊欄位的資料儲存類別中選擇檔案夠用，點選在右邊視窗檔案共用設定下方的 Active Directory: 「未設定」超連結，在步驟 1：啟用 Active Directory 資料來源中的 Azure Active Directory 網域服務窗格中點選設定，右邊會再跳出視窗，請勾選「為此檔案共用啟用 Azure Active Directory Domain Services (Azure AD DS)」後儲存，完成啟用<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage5-1.png "storage5-1")<br>
  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage5-2.png "storage5-2")<br>
  - 回到檔案共用的視窗中，並新增檔案共用，輸入您的檔案共用名稱與容量，容量介於 100 GiB 到 102,400 GiB。點選建立。<br>
