@@ -42,8 +42,9 @@
 
 ## Lab 實戰演練
  下列每一個 Lab 都是能讓您建立出獨立且完整的 AVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
- 練習路徑1 - Lab1 + Lab4 ~ Lab8<br>
- 練習路徑2 - Lab2 + Lab5 ~ Lab8<br>
+ 練習路徑 1 - Lab1 + Lab4 ~ Lab8<br>
+ 練習路徑 2 - Lab2 + Lab5 ~ Lab8<br>
+ 練習路徑 3 為獨立 Lab，可讓您用最簡易的方式建立起 AVD 環境<br>
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 AVD<br>
 	 - [Lab1-1 - 建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-1.md)<br>
 	 - [Lab1-2 - 建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-2.md)<br>
@@ -52,6 +53,12 @@
 	 - [Lab2-1 - 建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-1.md)<br>
 	 - [Lab2-2 - 設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-2.md)<br>
 	 - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-3.md)<br>
+ - Lab3 - 使用 Azure AD 建立 AVD<br>
+   - [Lab3-1 - 建立 Azure AD User]()<br>
+   - [Lab3-2 - 透過 Azure 入口網站建立主機集區]()<br>
+   - [Lab3-3 - 指派使用者或群組]()<br>
+   - [Lab3-4 - 自訂 RDP 屬性]()<br>
+   - [Lab3-5 - 開始使用 AVD]()<br>
  - [Lab4 - 設定虛擬網路並建立 Azure Bastion](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab4.md)<br>
  - [Lab5 - 透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab5.md)<br>
  - [Lab6 - 設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab6.md)<br>
