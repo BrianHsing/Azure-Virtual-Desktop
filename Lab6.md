@@ -8,7 +8,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/upd2.png "upd2")<br>
  - 使用 AAD DC Administrators 管理群組內的帳號登入，填入後按下連線。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/upd3.png "upd3")<br>
- - 登入後，開啟瀏覽器，輸入https://aka.ms/fslogix_download，下載至桌面後，解壓縮。<br>
+ - 登入後，開啟瀏覽器，輸入 https://aka.ms/fslogix_download ，下載至桌面後，解壓縮。<br>
  - 點選您剛解壓縮的資料夾，點選 x64 資料夾後，點選 Release 資料夾，點選執行 FSLogixAppSetup.exe<br>
  - 勾選 I agree to the license terms and conditions，選擇 Install，安裝完成後點選 Close。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/upd4.png "upd4")<br>
