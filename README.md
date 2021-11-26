@@ -53,7 +53,7 @@
 	 - [Lab2-1 - 建立 Azure VM ADDS](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-1.md)<br>
 	 - [Lab2-2 - 設定 Azure AD Connect](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-2.md)<br>
 	 - [Lab2-3 - 建立 Azure Files 並啟用 Active Directory 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2-3.md)<br>
- - Lab3 - 使用 Azure AD 建立 AVD<br>
+  - Lab3 - 使用 Azure AD 建立 AVD (coming soon)<br>
    - [Lab3-1 - 建立 Azure AD User]()<br>
    - [Lab3-2 - 透過 Azure 入口網站建立主機集區]()<br>
    - [Lab3-3 - 指派使用者或群組]()<br>
