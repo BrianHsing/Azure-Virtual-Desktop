@@ -12,7 +12,7 @@
 - 跳出輸入您的認證視窗後，請再次輸入帳號密碼，您可以透過自訂網域，讓使用者帳號一致。<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/use5.png "use5")<br>
 - 順利登入工作桌面<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/win11display.png "win11display")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3/win11display.png "win11display")<br>
 詳細請參考 https://docs.microsoft.com/zh-tw/azure/virtual-desktop/connect-7-10<br>
 
 回到[Azure 虛擬桌面](https://github.com/BrianHsing/Azure-Virtual-Desktop)。<br>
