@@ -56,9 +56,8 @@
 - Lab3 - 使用 Azure AD 建立 AVD<br>
    - [Lab3-1 - 建立 Azure AD User](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-1.md)<br>
    - [Lab3-2 - 透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-2.md)<br>
-   - [Lab3-3 - 指派使用者或群組](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-31.md)<br>
-   - [Lab3-4 - 自訂 RDP 屬性](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-4.md)<br>
-   - [Lab3-5 - 開始使用 AVD](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-5.md)<br>
+   - [Lab3-3 - 指派使用者存取權與自訂 RDP 屬性](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-3.md)<br>
+   - [Lab3-4 - 開始使用 AVD](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3-4.md)<br>
  - [Lab4 - 設定虛擬網路並建立 Azure Bastion](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab4.md)<br>
  - [Lab5 - 透過 Azure 入口網站建立主機集區](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab5.md)<br>
  - [Lab6 - 設定 FSLogix 使用者設定檔](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab6.md)<br>
