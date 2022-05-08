@@ -44,7 +44,7 @@
  下列每一個 Lab 都是能讓您建立出獨立且完整的 AVD 環境，您可以選擇適合自己情境的 Lab 進行練習。<br>
  練習路徑 1 - Lab1 + Lab4 ~ Lab8<br>
  練習路徑 2 - Lab2 + Lab5 ~ Lab8<br>
- 練習路徑 3 為獨立 Lab，可讓您用最簡易的方式建立起 AVD 環境<br>
+ 練習路徑 3 為獨立 Lab3-1 ~ Lab3-4，可讓您用最簡易的方式建立起 AVD 環境<br>
  - Lab1 - 使用 Azure AD Domain Services 搭配 Azure Files 建立 AVD<br>
 	 - [Lab1-1 - 建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-1.md)<br>
 	 - [Lab1-2 - 建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-2.md)<br>
