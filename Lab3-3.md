@@ -9,6 +9,15 @@
 - 在成員頁籤中，存取權指派對象為使用者、群組或服務主體，成員選擇稍早所建立的 AVDGroup，完成後點選檢閱+指派<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3/permission3.png "permission3")<br>
 
+# 指派使用者群組使用個人工作階段主機
+
+- 點選主機集區中左欄管理列表下的應用程式群組，選擇應用程式群組類型為 Desktop 的應用程式群組<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3/assign1.png "assign1")<br>
+- 在左欄的管理列表下，選擇指派<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3/assign2.png "assign2")<br>
+- 點選新增，選擇 AVDGroup 授予應用程式群組存取權限<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab3/assign3.png "assign3")<br>
+
 # 自訂 RDP 屬性
 
 - 將視窗點選到稍早所建立的主機集區 `hostpool-personal`，在設定的功能欄位中選擇 `RDP 屬性`<br>
