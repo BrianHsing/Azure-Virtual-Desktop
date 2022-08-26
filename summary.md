@@ -1,0 +1,16 @@
+# Summary
+
+* [Azure 虛擬桌面](https://github.com/BrianHsing/Azure-Virtual-Desktop)
+* [Lab 實戰練習路徑 1](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-1.md)
+   * [建立 Azure AD 使用者](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-1.md)
+   * [建立 Azure AD Domain Services](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-2.md)
+   * [建立 Azure Files 並啟用 Azure AD Domain Services 驗證](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1-3.md)
+* [Lab 實戰練習路徑 2](howtouse/README.md)
+   * [Node.js安裝](howtouse/nodejsinstall.md)
+   * [Gitbook安裝](howtouse/gitbookinstall.md)
+   * [Gitbook命令行速覽](howtouse/gitbookcli.md)
+* [Lab 實戰練習路徑 3](howtouse/README.md)
+   * [Node.js安裝](howtouse/nodejsinstall.md)
+   * [Gitbook安裝](howtouse/gitbookinstall.md)
+   * [Gitbook命令行速覽](howtouse/gitbookcli.md)
+* [結束](end/README.md)  
