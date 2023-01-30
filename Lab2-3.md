@@ -51,7 +51,7 @@
  - 在左邊欄位的檔案服務類別中選擇檔案共用，就可以看到右邊視窗檔案共用設定下方顯示 Active Directory: 已設定，點選進去也會看到 Azure Active Directory 網域服務呈現反灰的狀態，Active Directory 則是可以設定 <br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-1.png "ada4-1")<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-2.png "ada4-2")<br>
- - 設定共用層級權限，選擇「Enable permissions for all authenticated users and groups」，Select appropriate role 選擇「SStorage File Data SMB Share Contributor」<br>
+ - 設定共用層級權限，選擇「Enable permissions for all authenticated users and groups」，Select appropriate role 選擇「Storage File Data SMB Share Contributor」<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-3.png "ada4-3")<br>
  - 回到檔案共用的頁面，並新增檔案共用，輸入您的檔案共用名稱與容量，容量介於 100 GiB 到 102,400 GiB。點選建立。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage6.png "storage6")<br>
