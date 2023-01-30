@@ -30,14 +30,17 @@
  - 完成後請輸入`Connect-AzAccount`，輸入您具有 Azure AD Global admin 權限的管理者帳號密碼<br>
  - 請輸入以下指令，其中 resourceGroup、OU、StorageAccountName，會替換成您實際使用的名稱<br>
    	```
-	$resourceGroup = '資源群組名稱'
-	$OU = 'AVD'
-	$StorageAccountName = '儲存體帳戶名稱'
+	$ResourceGroupName = "資源群組名稱"
+  $StorageAccountName = "儲存體帳戶名稱"
+  $DomainAccountType = "ComputerAccount" 
+  $OrganizationalUnitName = "AVD"
 
-	join-AzStorageAccountForAuth -ResourceGroupName $resourceGroup `
-                             -Name $StorageAccountName `
-                             -DomainAccountType "ComputerAccount" `
-                             -OrganizationalUnitName $OU
+  Join-AzStorageAccount `
+          -ResourceGroupName $ResourceGroupName `
+          -StorageAccountName $StorageAccountName `
+          -DomainAccountType $DomainAccountType `
+          -OrganizationalUnitName $OrganizationalUnitName `
+          -EncryptionType "'RC4','AES256'" 
 	``` 
  - 完成後 Powershell ISE 會顯示如下<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
