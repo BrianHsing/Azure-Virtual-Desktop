@@ -29,7 +29,19 @@
 	``` 
  - 完成後請輸入`Connect-AzAccount`，輸入您具有 Azure AD Global admin 權限的管理者帳號密碼<br>
  - 請輸入以下指令，其中 resourceGroup、OU、StorageAccountName，會替換成您實際使用的名稱<br>
+```
+$ResourceGroupName = "資源群組名稱"
+  $StorageAccountName = "儲存體帳戶名稱"
+  $DomainAccountType = "ComputerAccount" 
+  $OrganizationalUnitName = "AVD"
 
+  Join-AzStorageAccount `
+  -ResourceGroupName $ResourceGroupName `
+  -StorageAccountName $StorageAccountName `
+  -DomainAccountType $DomainAccountType `
+  -OrganizationalUnitName $OrganizationalUnitName `
+  -EncryptionType "'RC4','AES256'" 
+```
 
 
 
