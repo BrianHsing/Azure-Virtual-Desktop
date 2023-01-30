@@ -30,11 +30,11 @@
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds8.png "adds8")<br>
 	- Review Option 下一步後，Prerequisites Check 頁面選擇 Install，等待安裝結束後，會自動開機。<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds9.png "adds9")<br>
-	- 使用 Bastion 連線 (您設定的NetBios\isadmin / isadmin@123)<br>
+	- 使用 Bastion 連線 (isadmin / isadmin@123)<br>
 	- 開啟 Active Directory Users and Computers <br>
 	- 建立組織單位 (organizational unit) AVD<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds10.png "adds10")<br>
-	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds11.png "adds11")<br>
+	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds11-1.png "adds11")<br>
 	- 建立使用者物件 user1、user2、user3<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds12.png "adds12")<br>
 	 ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds13.png "adds13")<br>
