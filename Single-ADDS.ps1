@@ -15,7 +15,7 @@ $subnetadds = Add-AzVirtualNetworkSubnetConfig `
 -AddressPrefix 172.16.1.0/24 `
 -VirtualNetwork $virtualNetwork
 $subnethostpool = Add-AzVirtualNetworkSubnetConfig `
--Name rdsh-subnet `
+-Name sessionhost-subnet `
 -AddressPrefix 172.16.2.0/24 `
 -VirtualNetwork $virtualNetwork
 $subnetJump = Add-AzVirtualNetworkSubnetConfig `

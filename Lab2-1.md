@@ -1,8 +1,8 @@
 # Lab2 - 使用 Azure VM ADDS 搭配 Azure Files 建立 AVD
 ## Lab2-1.建立 Azure VM ADDS
- - 下載 Sigle-ADDS.ps1<br>
+ - 下載 Single-ADDS.ps1<br>
 	- 此命令會建立規格為 D4sv3 的虛擬機器、虛擬網路、堡壘<br>
- - 使用 Sigle-ADDS.ps1 佈署 Windows ADDS Server <br> 
+ - 使用 Single-ADDS.ps1 佈署 Windows ADDS Server <br> 
 	- 啟用 CloudShell<br>
     - 輸入`Connect-AzAccount` 登入<br>
 	- 上傳 Sigle-ADDS.ps1<br>
