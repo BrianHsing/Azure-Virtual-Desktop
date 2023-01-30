@@ -8,7 +8,7 @@
 	- 上傳 Single-ADDS.ps1<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/cloudshell-uploadps1.PNG "cloudshell-uploadps1")<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/upload-succsess.png "upload-succsess")<br>
-	- 輸入並執行 `./Single-ADDSv.ps1` <br>
+	- 輸入並執行 `./Single-ADDS.ps1` <br>
  - 設定虛擬網路DNS 伺服器 ADDS-vnet 指向 172.16.1.4<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/adds1.png "adds1")<br>
  - 進入虛擬機器設定 Active Directory 網域服務 <br> 
