@@ -29,19 +29,21 @@
 	``` 
  - 完成後請輸入`Connect-AzAccount`，輸入您具有 Azure AD Global admin 權限的管理者帳號密碼<br>
  - 請輸入以下指令，其中 resourceGroup、OU、StorageAccountName，會替換成您實際使用的名稱<br>
+  
   ```
-  $ResourceGroupName = "資源群組名稱"
-  $StorageAccountName = "儲存體帳戶名稱"
-  $DomainAccountType = "ComputerAccount" 
-  $OrganizationalUnitName = "AVD"
+$ResourceGroupName = "資源群組名稱"
+$StorageAccountName = "儲存體帳戶名稱"
+$DomainAccountType = "ComputerAccount" 
+$OrganizationalUnitName = "AVD"
 
-  Join-AzStorageAccount `
-          -ResourceGroupName $ResourceGroupName `
-          -StorageAccountName $StorageAccountName `
-          -DomainAccountType $DomainAccountType `
-          -OrganizationalUnitName $OrganizationalUnitName `
-          -EncryptionType "'RC4','AES256'" 
+Join-AzStorageAccount `
+        -ResourceGroupName $ResourceGroupName `
+        -StorageAccountName $StorageAccountName `
+        -DomainAccountType $DomainAccountType `
+        -OrganizationalUnitName $OrganizationalUnitName `
+        -EncryptionType "'RC4','AES256'" 
 	``` 
+  
  - 完成後 Powershell ISE 會顯示如下<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
  - 在左邊欄位的檔案服務類別中選擇檔案共用，就可以看到右邊視窗檔案共用設定下方顯示 Active Directory: 已設定，點選進去也會看到 Azure Active Directory 網域服務呈現反灰的狀態，Active Directory 則是可以設定 <br>
