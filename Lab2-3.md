@@ -42,8 +42,9 @@
           -DomainAccountType $DomainAccountType `
           -OrganizationalUnitName $OrganizationalUnitName `
           -EncryptionType "'RC4','AES256'" 
-          
-	``` 
+
+	```
+  
 
  - 完成後 Powershell ISE 會顯示如下<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada3.png "ada3")<br>
