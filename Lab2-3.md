@@ -30,7 +30,7 @@
  - 完成後請輸入`Connect-AzAccount`，輸入您具有 Azure AD Global admin 權限的管理者帳號密碼<br>
  - 請輸入以下指令，其中 resourceGroup、OU、StorageAccountName，會替換成您實際使用的名稱<br>
 ```
-$ResourceGroupName = "資源群組名稱"
+  $ResourceGroupName = "資源群組名稱"
   $StorageAccountName = "儲存體帳戶名稱"
   $DomainAccountType = "ComputerAccount" 
   $OrganizationalUnitName = "AVD"
@@ -51,6 +51,8 @@ $ResourceGroupName = "資源群組名稱"
  - 在左邊欄位的檔案服務類別中選擇檔案共用，就可以看到右邊視窗檔案共用設定下方顯示 Active Directory: 已設定，點選進去也會看到 Azure Active Directory 網域服務呈現反灰的狀態，Active Directory 則是可以設定 <br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-1.png "ada4-1")<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-2.png "ada4-2")<br>
+ - 設定共用層級權限，選擇「Enable permissions for all authenticated users and groups」，Select appropriate role 選擇「SStorage File Data SMB Share Contributor」<br>
+   ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab2/ada4-3.png "ada4-3")<br>
  - 回到檔案共用的頁面，並新增檔案共用，輸入您的檔案共用名稱與容量，容量介於 100 GiB 到 102,400 GiB。點選建立。<br>
    ![GITHUB](https://github.com/BrianHsing/Azure-Virtual-Desktop/blob/master/Lab1/storage6.png "storage6")<br>
  - 點選剛建立的檔案共用，選擇左欄存取控制(IAM)後，選擇新增，指派儲存體檔案資料 SMB 共同參與者角色，並選取 Lab1-2 所建立的使用者，儲存。<br>
