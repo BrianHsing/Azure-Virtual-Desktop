@@ -35,11 +35,11 @@
   $DomainAccountType = "ComputerAccount" 
   $OrganizationalUnitName = "AVD"
 
-  Join-AzStorageAccount `
-  -ResourceGroupName $ResourceGroupName `
-  -StorageAccountName $StorageAccountName `
-  -DomainAccountType $DomainAccountType `
-  -OrganizationalUnitName $OrganizationalUnitName `
+  Join-AzStorageAccount \`
+  -ResourceGroupName $ResourceGroupName \`
+  -StorageAccountName $StorageAccountName \`
+  -DomainAccountType $DomainAccountType \`
+  -OrganizationalUnitName $OrganizationalUnitName \`
   -EncryptionType "'RC4','AES256'" 
 	``` 
  - 完成後 Powershell ISE 會顯示如下<br>
